@@ -1,27 +1,21 @@
 # Evidence Documentation
 
-This folder contains screenshots and supporting evidence collected during the security assessment of OWASP Juice Shop.
+This folder contains screenshots collected during the security assessment of OWASP Juice Shop.
 
-## Evidence 1: SQL Injection Test
+## 1. SQL Injection Login Test
 
-**Description:** Screenshot documenting the login test in which SQL Injection resulted in successful authentication.
+The screenshot below documents the successful login observation during the SQL Injection test.
 
-**Status:** Screenshot to be added.
+![SQL Injection Login Test](sqli-login-test.png)
 
-## Evidence 2: Cross-Site Scripting (XSS) Test
+## 2. Cross-Site Scripting (XSS)
 
-**Description:** Screenshot showing the JavaScript alert dialog observed after submitting a crafted search input.
+The screenshot below shows the JavaScript alert dialog observed during the search test.
 
-**Status:** Screenshot to be added.
+![XSS Alert Test](xss-alert-test.png)
 
-## Evidence 3: Burp Suite Traffic Analysis
+## 3. Burp Suite HTTP Traffic Analysis
 
-**Description:** Screenshot showing the HTTP traffic inspected using Burp Suite Community Edition.
+The screenshot below shows the HTTP login request and server response captured using Burp Suite Community Edition.
 
-**Status:** Screenshot to be added.
-
-## Evidence Handling
-
-- Screenshots should be captured from the local OWASP Juice Shop environment.
-- Sensitive information such as cookies, authorization headers, passwords, and session tokens must be hidden.
-- Each screenshot should clearly demonstrate the relevant test result.
+![Burp Suite Traffic Analysis](burp-traffic-analysis.png)
